@@ -1,4 +1,5 @@
 # ESP32_flight_control
+Link to blog post: https://brian.ma/blog/art/2022/04/06/kinetic-sculpture.html
 
 There are two ESP32 microcontrollers on the plane. One controls the rear control surfaces, while the other controls the forward propellers. Hence, there are two files that need to be uploaded to each microcontroller individually. The ServoControl file should be uploaded to the read controls, while the DCMotorControl file should be uploaded to the ESP32 connected to the DC motors.
 
